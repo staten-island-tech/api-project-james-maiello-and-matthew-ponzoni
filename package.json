@@ -1,21 +1,19 @@
 {
-  "name": "parcel-template",
+  "name": "api-project-james-maiello-and-matthew-ponzoni",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "clean": "rm dist/bundle.js",
-    "start": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/staten-island-tech/api-project-james-maiello-and-matthew-ponzoni.git"
+  },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "parcel-bundler": "^1.12.4",
-    "sass": "^1.26.9"
+  "bugs": {
+    "url": "https://github.com/staten-island-tech/api-project-james-maiello-and-matthew-ponzoni/issues"
   },
-  "browserslist": [
-    "since 2017-06"
-  ]
+  "homepage": "https://github.com/staten-island-tech/api-project-james-maiello-and-matthew-ponzoni#readme"
 }

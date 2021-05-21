@@ -1,20 +1,14 @@
-const select = document.querySelectorAll('select');
-const input = document.querySelectorAll('input');
+const select = document.querySelectorAll(select);
+const input = document.querySelectorAll(input);
 const API_URL = "http://api.exchangeratesapi.io/v1/latest?access_key=5501a8fc65c96ccaa4137c500f418459";
-let html = ''
+let html = '';
 
 async function currency(){
 const res = await fetch(API_URL);
 const data = await res.json();
 const arrKeys = Object.keys(data.rates);
 arrKeys.map(item =>{
-    return html += '<option value=${item}>${item}</option>'
+    return html += <option value=${item}>${item}</option>
 });
-    console.log(html);
-    for(let i=0; i<select.length; i++){
-        select[i].innerHTML =html
-    }
-};
-
-
-currency();
+ console.log(html)
+}

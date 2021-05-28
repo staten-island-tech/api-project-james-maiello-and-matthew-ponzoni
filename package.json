@@ -1,0 +1,27 @@
+{
+  "name": "api-project-james-maiello-and-matthew-ponzoni",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build-prod": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/staten-island-tech/api-project-james-maiello-and-matthew-ponzoni.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/staten-island-tech/api-project-james-maiello-and-matthew-ponzoni/issues"
+  },
+  "homepage": "https://github.com/staten-island-tech/api-project-james-maiello-and-matthew-ponzoni#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "react": "^17.0.2"
+  }
+}

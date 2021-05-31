@@ -1,13 +1,13 @@
 const select = document.querySelectorAll('select');
 const input = document.querySelectorAll('input');
-const API_URL = "http://api.exchangeratesapi.io/v1/latest?access_key=356e02988919324a9c44ee79dae7e38b";
+const API_URL = "https://v6.exchangerate-api.com/v6/e08feb7c3788e65ce1b92f76/latest/USD";
 let html = '';
 
 async function currency(){
     const res = await fetch(API_URL);
     const data = await res.json();
-    const arrayData = Object.keys(data.rates);
-    const rates = data.rates;
+    const arrayData = Object.keys(data.conversion_rates);
+    const rates = data.conversion_rates;
     console.log(arrayData)
     console.log(rates)
     arrayData.map(item =>{
